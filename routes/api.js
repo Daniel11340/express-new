@@ -9,6 +9,7 @@ db = new sqlite.Database("./db.sqlite", sqlite.OPEN_READWRITE, (err) => {
     console.log('Connected to the database.');
 });
 
+
 router.post('/', (req, res) => {
     const {date, name, money}=req.body;
     sql = "INSERT INTO data (date, name, money) VALUES (?, ?, ?)";
