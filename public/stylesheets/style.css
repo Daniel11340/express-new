@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+table {
+  width: 75%;
+}
+input{
+
+  height: 27px;
+  width: 20%;
+}
+th, td {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+th {
+  background-color: brown;
+  color: white;
+}
+button{
+  background-color: bisque;
+  color: chocolate;
+  padding: 10px 20px;
+}
